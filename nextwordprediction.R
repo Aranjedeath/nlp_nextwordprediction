@@ -1,5 +1,3 @@
-setwd('C:/Users/Vítor/Documents/R_project/CAPSTONE')
-
 memory.size(); gc()
 #For reproducibility purposes
 set.seed(1234)
@@ -295,7 +293,6 @@ backoff <- function(sentence_input) {
   }
   return(as.character(prediction))
 }
-backoff("sounds like a")
 
 save(unigram_table
      ,bigram_table
